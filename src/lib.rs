@@ -174,7 +174,6 @@ impl State {
             g: height,
             ..self.clear_color
         };
-        println!("{:?}", _event_loop);
     }
 
     pub fn render(&mut self) -> Result<(), wgpu::SurfaceError> {
